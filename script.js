@@ -1,12 +1,7 @@
 const sampleObject = { red: "#FF0000", green: "#00FF00", white: "#FFFFFF" };
 
 function hasKey(key) {
-    for (let i in romanmap){
-        let [symbol,value] = romanMap[i];
-        if (symbol === key){
-           return true;
-        }
-    }  return false;
+ return key in sampleObject;
     }
   
 
